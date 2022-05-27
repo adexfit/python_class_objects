@@ -16,7 +16,7 @@ class Student:
         return self.tracks.append(new_track)
 
     def get_score(self):
-        return self.score
+        return float(self.score)
 
 
 Bob = Student(name="Bob", age=26, tracks=["Fastapp","Bread"],score=20.90)
